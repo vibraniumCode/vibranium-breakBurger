@@ -6,7 +6,7 @@ Public opc_movimiento As Integer
 Public Usuario As String
 Public cod_menu As Integer
 Public cod_movimiento As Integer 'para ver si se abre una ventana o no
-Public pagoF As Integer
+Public pagoF As Long
 Public proceso_fin As Integer
 Public id_Err As Integer
 Public mov_entrega As Integer

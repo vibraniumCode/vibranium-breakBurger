@@ -286,7 +286,7 @@ Begin VB.Form Ventas
                Strikethrough   =   0   'False
             EndProperty
             CalendarBackColor=   -2147483644
-            Format          =   171311106
+            Format          =   165937154
             CurrentDate     =   44808
          End
       End
@@ -2203,7 +2203,7 @@ Comprobante.Show
 End Sub
 
 Private Sub TPagoA_KeyPress(KeyAscii As Integer)
-Dim impPagar As Integer
+Dim impPagar As Long
 If KeyAscii = 13 Then
     If TPagoA.Text > pagoF Then
         MsgBox "No puede superar el importe a pagar", vbCritical, "Break Burger"
